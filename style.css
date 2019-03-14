@@ -1,0 +1,17 @@
+/* Add your styles here */
+
+ul {
+  height: 200px;
+  overflow: hidden;
+}
+
+ul li {
+  height: 200px;
+  width: 500px;
+  transition: height 1s ease-in-out;
+  list-style: none;
+}
+
+ul li.collapsed {
+  height: 0;
+}
